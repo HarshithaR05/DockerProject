@@ -32,7 +32,7 @@
 
 <script>
 async function loadData() {
-    const response = await fetch("/api");
+    const response = await fetch("http://backend/api");
     const result = await response.json();
 
     const tbody = document.getElementById("namesList");
